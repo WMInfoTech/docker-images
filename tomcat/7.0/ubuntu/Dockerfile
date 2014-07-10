@@ -1,4 +1,4 @@
-FROM pcfens/java
+FROM wmit/java
 MAINTAINER Phil Fenstermacher <pcfens@wm.edu>
 
 ENV TOMCAT_VERSION 7.0.54
