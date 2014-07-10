@@ -9,10 +9,10 @@ exposed to linked containers.
 ## Use
 
 To build:
-`docker build -t pcfens/tomcat`
+`docker build -t pcfens/tomcat[:7]`
 
 To run:
-`docker run pcfens/tomcat`
+`docker run pcfens/tomcat[:7]`
 
 To change java options set the CATALINA_OPTS environment variable.
 The default value is `-Xms512M -Xmx1024M`
